@@ -13,9 +13,14 @@
 
 ## About The Project
 
-This is a simple inventory and billing system project for veterinary clinic. It can use and generate barcode. It's easy to use. 
-</br>
+<div>This is a simple inventory and billing system project for veterinary clinic. It can use and generate barcode. It's easy to use. 
+</div></br>
+
+![](screenshot/dashboard.png)
+
 ![](screenshot/billing.png)
+
+![](screenshot/report.png)
 
 
 ### Built With
