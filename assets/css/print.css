@@ -1,0 +1,77 @@
+.print-header {
+    width: 300px;
+}
+
+
+/*c- means common*/
+.c-report-print-as-of-div {
+    text-align: center; 
+    margin-bottom: 15px; 
+    display: none;
+}
+
+@media print {
+    *, body, html {
+        background-color: red;
+        font-size: 11px;
+    }
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+    tbody::after {
+        content: ''; display: block;
+        page-break-after: always;
+        page-break-inside: avoid;
+        page-break-before: avoid;        
+    }
+
+
+    #print_div {
+        padding-right: 10mm;
+        width: 105mm;
+        height: 148mm;
+    }
+
+
+    .print-header {
+        width: 50mm;
+    }
+
+
+    table.table-receipt {
+        border-bottom: unset;
+        width: 100%;
+    }
+
+    .item-desc {
+        display: none;
+    }
+
+
+    /*report*/
+    .c-report-print-as-of-div { 
+        display: block;
+    }
+
+    .c-report-print-div table thead tr th,
+    .c-report-print-div table tbody tr td,
+    .c-report-print-div table tfoot tr td {
+        font-size: 10px;
+    }
+
+
+    .c-report-print-div table tbody tr.alert-warning td {
+        color: #8a6d3b !important;
+        background-color: #fcf8e3 !important;
+        border-color: #faebcc !important;
+    }
+
+    .c-report-print-div table tbody tr.alert-danger td {
+        color: #a94442 !important;
+        background-color: #f2dede !important;
+        border-color: #ebccd1 !important;
+    }
+
+}
