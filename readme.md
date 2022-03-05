@@ -42,7 +42,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Shen - (https://twitter.com/twitter_handle) - eumagueshenshen@gmail.com
+Shen - eumagueshenshen@gmail.com
 
 Project Link: [https://github.com/shen101s/inventory](https://github.com/shen101s/inventory)
 
