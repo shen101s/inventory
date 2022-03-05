@@ -16,10 +16,13 @@
 <div>This is a simple inventory and billing system project for veterinary clinic. It can use and generate barcode. It's easy to use. 
 </div></br>
 
+#### Dashboard.png
 ![](screenshot/dashboard.png)
 
+#### Billing.png
 ![](screenshot/billing.png)
 
+#### Report.png
 ![](screenshot/report.png)
 
 
